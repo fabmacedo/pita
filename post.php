@@ -147,7 +147,7 @@ $postCanonical = $post ? 'post.php?slug=' . $post['slug'] : 'blog.php';
                             <p class="text-[10px] font-bold uppercase tracking-[0.18em] text-sand/70">Conteúdo jurídico</p>
                             <p class="mt-5 font-serif text-2xl leading-tight text-cream">Precisa de uma análise individual?</p>
                             <p class="mt-4 text-sm leading-7 text-cream/62">Cada caso exige avaliação dos documentos, prazos e provas disponíveis.</p>
-                            <a href="<?php echo e($whatsapp_link); ?>" target="_blank" rel="noopener" class="soft-radius mt-6 inline-flex items-center justify-center gap-2 border border-white bg-white px-5 py-3 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">Falar com especialista</a>
+                            <a href="<?php echo e($whatsapp_link); ?>" target="_blank" rel="noopener" class="soft-radius mt-6 inline-flex items-center justify-center gap-2 border border-white bg-white px-5 py-3 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">Conversar sobre meu caso</a>
                         </aside>
                     </div>
                 </section>

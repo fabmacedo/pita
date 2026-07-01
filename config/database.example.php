@@ -1,6 +1,5 @@
 <?php
-// Configure estes dados com as credenciais do MySQL criadas no cPanel.
-// Exemplo comum no cPanel: usuario_nomebanco, usuario_nomeusuario.
+// Copie este arquivo para config/database.php e ajuste as credenciais do ambiente.
 
 define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
 define('DB_PORT', getenv('DB_PORT') ?: '3306');

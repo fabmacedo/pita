@@ -93,7 +93,7 @@ $endereco_local = $settings['endereco_local'];
                     </p>
                     <div class="mt-8 flex flex-col items-stretch gap-3 sm:flex-row">
                         <a href="index.php#inicio" class="soft-radius inline-flex items-center justify-center border border-white bg-white px-7 py-4 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">Voltar ao início</a>
-                        <a href="<?php echo e($whatsapp_link); ?>" target="_blank" rel="noopener" class="soft-radius inline-flex items-center justify-center gap-2 border border-white bg-white px-7 py-4 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">Falar com especialista</a>
+                        <a href="<?php echo e($whatsapp_link); ?>" target="_blank" rel="noopener" class="soft-radius inline-flex items-center justify-center gap-2 border border-white bg-white px-7 py-4 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">Conversar sobre meu caso</a>
                     </div>
                 </div>
                 <div class="soft-radius border border-[#6B181D] bg-bordoDeep/35 p-8 reveal">

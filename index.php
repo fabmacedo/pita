@@ -178,14 +178,14 @@ $whatsapp_link      = $settings['whatsapp_link'];
                         Advocacia estratégica
                     </div>
                     <h1 class="font-serif text-[2.05rem] font-semibold leading-[1.04] sm:text-[2.5rem] lg:text-[2.75rem] xl:text-[2.95rem]">
-                        Advocacia trabalhista<br>estratégica com atendimento<br>humanizado e atuação<br>especializada
+                        Nenhum trabalho deveria<br>custar a sua saúde mental.
                     </h1>
                     <p class="mt-6 max-w-[34rem] text-base leading-7 text-cream/85 lg:text-lg">
-                        Defendemos os direitos dos trabalhadores e oferecemos soluções jurídicas seguras para empresas, com atuação técnica, transparente e eficiente.
+                        Se você vive sob pressão excessiva, metas abusivas, assédio ou um ambiente que tem afetado sua saúde emocional, saiba que essa situação pode gerar direitos trabalhistas.
                     </p>
                     <div class="mt-10 flex flex-row items-center gap-3">
                         <a href="<?php echo e($whatsapp_link); ?>" target="_blank" rel="noopener" class="whatsapp-cta soft-radius inline-flex min-h-14 items-center justify-center gap-2 border border-white bg-white px-7 py-4 text-xs font-bold uppercase tracking-[0.16em] text-wineDark transition hover:bg-paper">
-                            Falar com especialista
+                            Conversar sobre meu caso
                         </a>
                         <a href="#sobre" aria-label="Ir para a próxima seção" class="soft-radius grid h-14 w-14 shrink-0 place-items-center border border-white bg-white text-wineDark transition hover:bg-paper">
                             <?php echo ph_icon('caret-down', 'text-xl leading-none'); ?>

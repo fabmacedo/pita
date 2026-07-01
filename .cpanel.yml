@@ -1,0 +1,21 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH="${HOME}/public_html/"
+    - /bin/mkdir -p "${DEPLOYPATH}"
+    - /bin/cp -f .htaccess "${DEPLOYPATH}.htaccess"
+    - /bin/cp -f 404.php "${DEPLOYPATH}404.php"
+    - /bin/cp -f blog.php "${DEPLOYPATH}blog.php"
+    - /bin/cp -f contact-submit.php "${DEPLOYPATH}contact-submit.php"
+    - /bin/cp -f index.php "${DEPLOYPATH}index.php"
+    - /bin/cp -f post.php "${DEPLOYPATH}post.php"
+    - /bin/cp -f robots.txt "${DEPLOYPATH}robots.txt"
+    - /bin/cp -f sitemap.php "${DEPLOYPATH}sitemap.php"
+    - /bin/cp -f sitemap.xml "${DEPLOYPATH}sitemap.xml"
+    - /bin/cp -Rf admin "${DEPLOYPATH}"
+    - /bin/cp -Rf font "${DEPLOYPATH}"
+    - /bin/cp -Rf image "${DEPLOYPATH}"
+    - /bin/cp -Rf includes "${DEPLOYPATH}"
+    - /bin/cp -Rf scripts "${DEPLOYPATH}"
+    - /bin/mkdir -p "${DEPLOYPATH}config"
+    - /bin/cp -f config/.htaccess "${DEPLOYPATH}config/.htaccess"
