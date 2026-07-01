@@ -70,7 +70,7 @@ function get_site_settings(): array
         'whatsapp_raw' => '5574981405295',
         'whatsapp_friendly' => '(74) 98140-5295',
         'email_contato' => 'contato@gabrielapitaadvogados.com.br',
-        'oab_registro' => 'OAB/BA 123.456',
+        'oab_registro' => 'OAB - 27344',
         'nome_escritorio' => 'Gabriela Pita Advogados Associados',
         'endereco_local' => 'Senhor do Bonfim - BA',
         'google_reviews_url' => 'https://share.google/f0CHbeOnC5QMY2l4R',
@@ -120,6 +120,10 @@ function get_site_settings(): array
         }
     } catch (Throwable $e) {
         return $defaults;
+    }
+
+    if (trim($defaults['oab_registro']) === 'OAB/BA 123.456') {
+        $defaults['oab_registro'] = 'OAB - 27344';
     }
 
     $defaults['whatsapp_raw'] = only_numbers($defaults['whatsapp_raw']);
